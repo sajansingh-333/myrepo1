@@ -1,0 +1,16 @@
+to open-  vi filename
+to insert - press i
+to come back and execute commands like copy,paste,delete lines,paste lines,copy lines : - press Esc
+to copy lines or yank lines :
+yy or y3y or y5y for one line or 3 or 5 lines respectively
+to paste lines :  press P
+to delete lines : dd , d3d, d5d and soon . for one line,3 lines,5 lines respectively.
+to search for string :-  :/string  (to search for a string)
+to replace a string :- 
+                 :%s/oldstring/newstring  (only when one string is present which has to be replaced)
+                  :%s/old/new/g  (recursively replaces the strings)
+                  :%s/old/new/c  (will ask Y or N to replace the string or not)
+to save : :w
+to exit : :q (without save)
+to save and exit : :Wq! (both save and exit)
+ 
